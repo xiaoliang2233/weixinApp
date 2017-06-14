@@ -1,0 +1,23 @@
+<!--chat.wxml-->
+<swiper indicator-dots="{{true}}" autoplay="{{true}}" bindchange="swiper_change">
+  <block wx:for="{{imgUrls}}" wx:key="item">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+  <div class="text-area">
+    <textarea placeholder="写点什么吧!" bindblur="textareaVal" value="{{text_area}}"></textarea>
+  </div>
+  <button type="primary" bindtap="submit" loading="{{loading}}">push!</button>
+</view>
+<view>
+  <block wx:for="{{text_array}}" wx:key="item">
+    <div class="card">
+      <image src="{{item.userInfo.avatarUrl}}" class="userinfo-avatar"></image>
+      <text>{{item.text}}</text>
+    </div>
+  </block>
+</view>
+
