@@ -24,6 +24,7 @@ textarea{
 }
 text{
   flex: 1;
+  word-break: break-all;
 }
 text-area{
   padding: 20rpx;

@@ -8,7 +8,8 @@ Page({
     imgUrls: [
       'http://7xlotq.com1.z0.glb.clouddn.com/o_1bii8333f128bcrkk1t0csoj9.jpg',
       'http://7xlotq.com1.z0.glb.clouddn.com/o_1bii8geta10rb19bosj54uqbfae.jpg',
-      'http://7xlotq.com1.z0.glb.clouddn.com/o_1bii8m9a29afc15k0atcb1hrmj.jpeg'
+      'http://7xlotq.com1.z0.glb.clouddn.com/o_1bii8m9a29afc15k0atcb1hrmj.jpeg',
+      'http://orkfwj2rc.bkt.clouddn.com/baoqin/image/%E8%B5%AB%E8%90%9Dj.jpg',
     ],
     text_array: [],
     text_area: "",

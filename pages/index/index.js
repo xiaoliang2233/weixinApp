@@ -21,6 +21,11 @@ Page({
       url: '../chat2/chat'
     })
   },
+  bindViewTap_chat3: function () {
+    wx.navigateTo({
+      url: '../share/share'
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this

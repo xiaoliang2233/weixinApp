@@ -2,12 +2,15 @@
 <view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">愿卡拉指引你的利刃</text>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view class="usermotto" bindtap="bindViewTap_chat">
-    <text class="user-motto">{{'欢迎!请按这里...'}}</text>
+    <button class="user-motto">{{'点击这里'}}</button>
   </view>
   <view class="usermotto" bindtap="bindViewTap_chat2">
-    <text class="user-motto">{{'这里有个非匿名聊天...'}}</text>
+    <button class="user-motto">{{'还有这里'}}</button>
+  </view>
+  <view class="usermotto" bindtap="bindViewTap_chat3">
+    <button class="user-motto">{{'还有这里'}}</button>
   </view>
 </view>

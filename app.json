@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/chat/chat",
-    "pages/chat2/chat"
+    "pages/chat2/chat",
+    "pages/share/share"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "宝琴立雪",
     "navigationBarTextStyle":"black"
   }
 }
