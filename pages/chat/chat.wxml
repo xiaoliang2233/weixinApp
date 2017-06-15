@@ -14,7 +14,7 @@
 </view>
 <view>
   <block wx:for="{{text_array}}" wx:key="item">
-    <div class="card">
+    <div class="md-card">
       <text>{{item}}</text>
     </div>
   </block>

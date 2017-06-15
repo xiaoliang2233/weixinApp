@@ -14,9 +14,11 @@
 </view>
 <view>
   <block wx:for="{{text_array}}" wx:key="item">
-    <div class="card">
-      <image src="{{item.userInfo.avatarUrl}}" class="userinfo-avatar"></image>
-      <text>{{item.text}}</text>
+    <div class="md-card">
+      <div class="content">
+        <image src="{{item.userInfo.avatarUrl}}" class="userinfo-avatar"></image>
+        <text>{{item.text}}</text>
+      </div>
     </div>
   </block>
 </view>

@@ -6,15 +6,6 @@ image{
   justify-content: center;
   align-items: center;
 }
-.card{
-  display: flex;
-  align-items: center;
-  padding: 20rpx;
-  margin:20rpx;
-  border:1px solid #e6e7e8;
-  border-radius: 2px;
-  box-shadow: 1px 1px 1px #888888;
-}
 textarea{
   border:1px solid #e5e6e7;
   height: 200rpx;
@@ -35,3 +26,7 @@ button{
   margin: 20rpx;
 }
 
+.content{
+  display: flex;
+  align-items: center;
+}
